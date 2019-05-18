@@ -1,8 +1,10 @@
-# LeD DoS
+# DoS
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://clanled.com/thedostool.html)
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-LeD DoS is a new way to preform a DDoS on a target without complcated code
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+DoS is a new way to preform a DDoS on a target without complcated code
 
   - Simple
   - Html, PHP, JS and Node
@@ -15,12 +17,12 @@ LeD DoS is a new way to preform a DDoS on a target without complcated code
 
 ### Installation and Use
 
-LeD DoS requires [Node.js](https://nodejs.org/) v11.10+ to run.
+DoS requires [Node.js](https://nodejs.org/) v11.10+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ git clone https://github.com/PROFESSOREGGMAN/LeD-DoS.git DoS
+$ git clone https://github.com/PROFESSOREGGMAN/DoS.git DoS
 $ cd DoS
 $ nano dos.js
 ```
