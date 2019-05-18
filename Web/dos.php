@@ -13,6 +13,7 @@
       height: 100%;
       padding-top: 150px;
       font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+      background-color: #001628;
     }
 
     .head {
@@ -21,10 +22,10 @@
 
     .bg {
       background-image: url("megaoof.png");
-      height: 100%;
+      height: 200%;
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: auto;
     }
 
     table,th,td {
@@ -43,7 +44,7 @@
       text-align: center;
       margin: auto;
       width: 30%;
-      border: 3px solid #555555;
+      border: 5px solid #00ffff;
       padding: 10px;
     }
 
@@ -75,14 +76,13 @@
 
   </style>
 
-<div class="bg"></div>
+<div class="">
+  <div class="container">
+    <h2>Mission Control</h2>
+      <p class="head">Change IP then hit Start to begin Ping</p>
 
-<div class="container">
-  <h2>Mission Control</h2>
-    <p class="head">Change IP then hit Start to begin Ping</p>
-
-    <?php
-    if (isset($_POST['submit1'])) {
+      <?php
+      if (isset($_POST['submit1'])) {
       $file = fopen("active.txt","w+") or die("file no open :(");
 
       $s = "<p>"."1"."</p>"."\n";
@@ -150,6 +150,7 @@
     </div>
 
   </div>
+</div>
 
 </body>
 </html>

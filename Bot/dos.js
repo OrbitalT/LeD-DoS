@@ -4,7 +4,7 @@ var ping = require('ping');
 
 setInterval(function () {
 
-    request('http://localhost/dos/dos.php', (error, response, html) => {
+    request('http://localhost/LeD-DoS/Web/dos.php', (error, response, html) => {
         if (!error && response.statusCode == 200) {
             const $ = cheerio.load(html);
 
