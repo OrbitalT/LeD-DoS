@@ -20,7 +20,7 @@ LeD DoS requires [Node.js](https://nodejs.org/) v11.10+ to run.
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ git clone https://github.com/PROFESSOREGGMAN/DoS.git DoS
+$ git clone https://github.com/PROFESSOREGGMAN/LeD-DoS.git DoS
 $ cd DoS
 $ nano dos.js
 ```
