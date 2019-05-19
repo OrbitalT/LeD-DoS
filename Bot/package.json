@@ -1,7 +1,7 @@
 {
   "name": "bot",
   "version": "1.0.0",
-  "description": "Bot for website",
+  "description": "An easy to use PoD / Dos / DDoS Botnet",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "floodjs": "^0.1.0",
-    "fs": "0.0.1-security",
+    "fs": "0.0.2",
     "node-powershell": "^4.0.0",
     "ping": "^0.2.2",
     "request": "^2.88.0"
