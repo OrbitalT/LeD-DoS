@@ -20,13 +20,6 @@ setInterval(function () {
                 // console.log("IP: " + output + ", Active: " + gotime + ", Current IP: " + current.toString());
             });
 
-            // if (output != current) {
-            //     fs.writeFile("ip.txt", output, (err) => {
-            //         if (err) console.log(err);
-            //         console.log("Updated IP to " + output);
-            //       });
-            // }
-
             if (gotime == 1) {
 
                 const ps = new Shell({
@@ -34,22 +27,15 @@ setInterval(function () {
                     noProfile: true
                   });
                    
-                  ps.addCommand('ping ' + output);
+                  ps.addCommand('ping ' + output + ' -l 65500 -w 1 -t');
                   ps.invoke()
-                  .then(output => {
-                    console.log(output);
+                  .then(com => {
+                    console.log(com);
                   })
                   .catch(err => {
                     console.log(err);
                   });
 
-                // var hosts = [output];
-                // hosts.forEach(function (host) {
-                //     ping.sys.probe(host, function (isAlive) {
-                //         var msg = isAlive ? 'IP ' + host + ' is being PINGED' : 'host ' + host + ' is not avalible';
-                //         console.log(msg);
-                //     });
-                // });
             }
             
             if (gotime != '1') {
@@ -57,4 +43,4 @@ setInterval(function () {
             }
         }
     });
-}, 10000);
+}, 5000);
