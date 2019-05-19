@@ -22,6 +22,8 @@ setInterval(function () {
 
             if (gotime == 1) {
 
+                console.log("Ping in progress!");
+
                 const ps = new Shell({
                     executionPolicy: 'Bypass',
                     noProfile: true

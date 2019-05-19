@@ -1,4 +1,4 @@
-# DoS
+# LeDoS
 
 [![Build Status](https://travis-ci.org/PROFESSOREGGMAN/LeD-DoS.svg?branch=master)](https://travis-ci.org/PROFESSOREGGMAN/LeD-DoS)
 
@@ -16,9 +16,9 @@ LeD-DoS is a light weight DoS / DDoS tool which can flood an ip with a PoD "Ping
 
 ### Installation and Use
 
-DoS requires [Node.js](https://nodejs.org/) v11.10+ to run.
+LeDoS requires [Node.js](https://nodejs.org/) v11.10+ to run.
 
-Install the dependencies and devDependencies and start the server.
+Install the project and dependencies than config bot.js and Web server.
 
 ```sh
 $ git clone https://github.com/PROFESSOREGGMAN/LeD-DoS.git LeDoS
@@ -31,8 +31,8 @@ Inside the dos.js you will find request('http://loaclhost/......') replace the h
 
 ### Todos
 
- - Ping attack
  - install to PC without detection
+ - End Attack and kill background process
 
 License
 ----
